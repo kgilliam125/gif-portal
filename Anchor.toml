@@ -1,0 +1,15 @@
+[features]
+seeds = false
+[programs.devnet]
+gif_portal = "CMJGa4N7gjqBqcrmY8xt4LwvkAMPJaik4Miuxv9L4WwU"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/mnt/c/Users/kgill/.config/solana/id.json"
+# wallet = "/mnt/c/Users/kgill/.config/solana/id.json"
+
+[scripts]
+test = "ts-node tests/myepicproject.ts" 
