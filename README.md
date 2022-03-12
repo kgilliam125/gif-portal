@@ -1,0 +1,1 @@
+A starter project from [buildspace](https://app.buildspace.so/home) for a web3 app with React + Anchor.
