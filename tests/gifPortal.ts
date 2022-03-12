@@ -6,7 +6,8 @@ const main = async() => {
   const provider = anchor.Provider.env()
   anchor.setProvider(provider);
 
-  const program = anchor.workspace.gifPortal;
+  const program = anchor.workspace.GifPortal
+  console.log(program)
   const baseAccount = anchor.web3.Keypair.generate()
 
   let tx = await program.rpc.startStuffOff({

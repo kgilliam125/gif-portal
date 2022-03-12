@@ -11,4 +11,4 @@ cluster = "devnet"
 wallet = "/mnt/c/Users/kgill/.config/solana/id.json"
 
 [scripts]
-test = "ts-node tests/myepicproject.ts" 
+test = "ts-node ./tests/gifPortal.ts" 
